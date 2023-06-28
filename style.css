@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  font-family: "Minecraftia";
+}
+
+.load {
+  width: 100%;
+  height: 100vh;
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.44);
+  display: none;
+}
+
+.main {
+  padding: 10px;
+  z-index: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Minecraftia";
+}
+
+form {
+  width: 50%;
+  margin: auto;
+  z-index: 0;
+  font-family: "Minecraftia";
+}
+form #nameError, form #descError, form #emailError, form #subjectError {
+  color: red;
+}
+
+.input {
+  display: flex;
+  background-color: white;
+  border: 1px solid #9FA6B2;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 1.5rem;
+}
+
+input {
+  width: 100%;
+  padding-left: 15px;
+  border: none;
+  font-size: 20px;
+  font-family: "Minecraftia";
+}
+
+input:focus {
+  outline: none;
+}
+
+input[type=submit] {
+  width: 100%;
+  margin-left: unset;
+  border: none;
+  font-size: 20px;
+  font-family: "Minecraftia";
+  margin-top: 1.5rem;
+  background-color: deepskyblue;
+  cursor: pointer;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 1rem;
+}
+
+textarea {
+  margin-top: 1.5rem !important;
+}
+
+.loading {
+  z-index: 10;
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+}
+
+.done {
+  width: 40%;
+  background-color: #f8f9fa;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: none;
+  padding: 0.5rem;
+}
+.done h2 {
+  text-align: center;
+}
+.done p {
+  text-align: center;
+}
+.done .center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.done .center button {
+  border: 1px solid #9FA6B2;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.preview {
+  width: 50%;
+  margin: 1rem auto;
+  background-color: #f8f9fa;
+}
+
+div#desc {
+  border: 1px solid #9FA6B2;
+  padding: 1rem 1.5rem;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.confirm {
+  width: 50%;
+  margin: auto;
+}
+.confirm .center {
+  width: fit-content;
+  margin: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
